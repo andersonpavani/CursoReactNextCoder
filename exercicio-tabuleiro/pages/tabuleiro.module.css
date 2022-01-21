@@ -1,0 +1,23 @@
+.tela {
+    background-color: darkslategrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.tabuleiro {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+}
+
+.casa {
+    height: 100px;
+    width: 100px;
+}
